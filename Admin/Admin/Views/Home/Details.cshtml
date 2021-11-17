@@ -1,0 +1,29 @@
+﻿@model  Admin.Models.kullanici
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detay</h2>
+<table class="table">
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Surname</td>
+            <td>@Model.Surname</td>
+        </tr>
+        <tr>
+            <td>Job</td>
+            <td>@Model.Job</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>@Model.Description</td>
+        </tr>
+</table>

@@ -1,0 +1,42 @@
+﻿@model Admin.Models.kullanici
+
+@{
+    ViewBag.Title = "Get";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Get</h2>
+<form action="/Home/Update" method="post" class="form-group">
+    <table class="table">
+        <tr>
+            <td>Id: </td>
+            <td><input type="text" name="Id" class="form-control" /> </td>
+        </tr>
+        
+        <tr>
+            <td>Name: </td>
+            <td><input type="text" name="Name" class="form-control" /> </td>
+        </tr>
+
+        <tr>
+            <td>Surname: </td>
+            <td><input type="text" name="Surname" class="form-control" /> </td>
+        </tr>
+
+        <tr>
+            <td>Description: </td>
+            <td><input type="text" name="Description" class="form-control" /> </td>
+        </tr>
+
+        <tr>
+            <td>Job: </td>
+            <td><input type="text" name="Job" class="form-control" /> </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Update" class="btn btn-success" />
+            </td>
+        </tr>
+    </table>
+</form>
