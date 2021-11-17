@@ -1,7 +1,5 @@
 # Admin-Panel
-Asp.Net Mvc
-MsSql
-
+Asp.Net Mvc || MsSql
 
 
 https://user-images.githubusercontent.com/84273839/142191215-80008395-4057-483c-9085-450c93af89f3.mp4
